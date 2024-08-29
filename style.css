@@ -21,7 +21,7 @@ h1 {
 h2 {
     color: #72370c;
 }
-h3 {
+.penize {
     color: #4cbb17;
 }
 h4 {
@@ -46,7 +46,7 @@ footer {
 hr {
     color: #72370c;
 }
-b {
+.seminka {
     color: chartreuse;
 }
 button {
