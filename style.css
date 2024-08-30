@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #996633;
+    color: #333;
+}
+header {
+    background-color: #996633;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #72370c;
+}
+h2 {
+    color: #72370c;
+}
+h3 {
+    color: #72370c;
+}
+.normalnitext{
+    color: #72370c;
+}
+.penize {
+    color: #4cbb17;
+    width: 95px;
+    transition: color 250ms;
+}
+.penize:hover{
+    color: #1c5303;
+    transition: color 250ms;
+}
+h4 {
+    color: #996633;
+}
+h6 {
+    color: #72370c;
+}
+p {
+    color: #72370c;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #996633;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+hr {
+    color: #72370c;
+}
+.chlebarnatext{
+    width: 200px;
+    color: #72370c;
+    transition: color 250ms;
+}
+.chlebarnatext:hover{
+    color: #492104;
+    transition: color 250ms;
+}
+.chlebik {
+    width: 63.1167px;
+    color: #72370c;
+    transition: color 250ms;
+}
+.chlebik:hover {
+    color: #492104;
+    transition: color 250ms;
+}
+.seminka {
+    color: chartreuse;
+    width: 85px;
+    transition: color 250ms;
+}
+.stred_div{
+    display: flex;
+    justify-content: center;
+}
+.seminka:hover{
+    color: rgb(0, 85, 0);
+    transition: color 250ms;
+}
+.button {
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:#72370c;
+    border: 2px solid #582b0b;
+    transition: width 250ms, height 250ms, background-color 250ms, border-radius 250ms;
+}
+.button:hover{
+    background-color: #4b2205;
+    height: 80px;
+    width: 160px;
+    border-radius: 0px;
+    transition: width 250ms, height 250ms, background-color 250ms, border-radius 250ms;
+}
+.neviditelnost{
+    color: #996633;
+}
+ul{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+.prace{
+    text-align: left;
+}
