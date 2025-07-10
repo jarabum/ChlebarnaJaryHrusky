@@ -96,6 +96,7 @@ hr {
 }
 .neviditelnost{
     color: #996633;
+    visibility: hidden;
 }
 ul{
     text-align: center;
