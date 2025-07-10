@@ -106,12 +106,12 @@ li{
     body {
       margin: 0;
       font-family: 'VT323', monospace;
-      background: url('https://i.imgur.com/Ot8xN2c.png');
+      background: url('obrázky/planky2.png');
       background-size: 64px;
       color: #fff;
     }
     .hero {
-      background: url('https://i.imgur.com/xI5jH7Y.jpg') center/cover no-repeat;
+      background: url('obrázky/chlebarnazepredu.png') center/cover no-repeat;
       height: 80vh;
       display: flex;
       align-items: center;
