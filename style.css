@@ -106,8 +106,8 @@ li{
     color: #72370c;
 }
 .prace{
-  color: black;                    /* výplň textu */
-  -webkit-text-stroke: 0.25px white; /* bílý obrys kolem každého písmenka */
+  color: black;
+  -webkit-text-stroke: 0.25px white;
   font-weight: bold;
   text-align: center;
 }
