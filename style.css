@@ -5,6 +5,9 @@ header {
     padding: 20px;
     text-align: center;
 }
+b {
+    color: #72370c;
+}
 section {
     padding: 20px;
     text-align: center;
@@ -99,6 +102,7 @@ ul{
 }
 li{
     text-align: center;
+    color: #72370c;
 }
 .prace{
     text-align: left;
@@ -112,6 +116,16 @@ body {
 }
 .hero {
     background: url('obrázky/chlebarnazepredu.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero2 {
+    background: url('obrázky/chlebarnazevnitr2.png') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
