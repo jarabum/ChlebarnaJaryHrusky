@@ -1,12 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #996633;
-    color: #333;
-}
 header {
     background-color: #996633;
+    background-image: url(obrázky/planky2.png);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -45,15 +39,6 @@ h6 {
 p {
     color: #72370c;
     margin-bottom: 10px;
-}
-footer {
-    background-color: #996633;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 hr {
     color: #72370c;
@@ -118,3 +103,90 @@ li{
 .prace{
     text-align: left;
 }
+    body {
+      margin: 0;
+      font-family: 'VT323', monospace;
+      background: url('https://i.imgur.com/Ot8xN2c.png');
+      background-size: 64px;
+      color: #fff;
+    }
+    .hero {
+      background: url('https://i.imgur.com/xI5jH7Y.jpg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-family: 'VT323', monospace;
+      text-shadow: 2px 2px #000;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin: 10px 0 20px;
+    }
+    .btn {
+      background: #3C8527;
+      color: white;
+      padding: 10px 20px;
+      border: 3px solid #264d1f;
+      font-family: 'VT323', monospace;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #4dae3b;
+      box-shadow: 0 0 10px #77ff77;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+    .item {
+      background: rgba(0, 0, 0, 0.7);
+      border: 3px solid #835C3B;
+      border-radius: 12px;
+      width: 180px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 0 12px #000;
+    }
+    .item img {
+      width: 64px;
+      height: 64px;
+    }
+    .item h3 {
+      color: #ffffaa;
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+    .item p {
+      color: #b0ffb0;
+      font-size: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      font-size: 16px;
+    }
