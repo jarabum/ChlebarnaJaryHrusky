@@ -106,7 +106,7 @@ li{
     body {
       margin: 0;
       font-family: 'VT323', monospace;
-      background: url('obrázky/planky2.png');
+      background: url('obrázky/planky2_tile_64.png');
       background-size: 64px;
       color: #fff;
     }
