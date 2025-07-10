@@ -1,15 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #996633;
-    color: #333;
-}
 header {
     background-color: #996633;
+    background-image: url(obrázky/planky2.png);
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+b {
+    color: #72370c;
 }
 section {
     padding: 20px;
@@ -24,7 +21,7 @@ h2 {
 h3 {
     color: #72370c;
 }
-.normalnitext{
+.normalnejsitext{
     color: #72370c;
 }
 .penize {
@@ -45,15 +42,6 @@ h6 {
 p {
     color: #72370c;
     margin-bottom: 10px;
-}
-footer {
-    background-color: #996633;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 hr {
     color: #72370c;
@@ -90,21 +78,21 @@ hr {
     transition: color 250ms;
 }
 .button {
-    height: 70px;
-    width: 150px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color:#72370c;
-    border: 2px solid #582b0b;
-    transition: width 250ms, height 250ms, background-color 250ms, border-radius 250ms;
+    background: #3C8527;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid #264d1f;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
 }
-.button:hover{
-    background-color: #4b2205;
-    height: 80px;
-    width: 160px;
-    border-radius: 0px;
-    transition: width 250ms, height 250ms, background-color 250ms, border-radius 250ms;
+.button:hover {
+    background: #4dae3b;
+    box-shadow: 0 0 10px #77ff77;
 }
 .neviditelnost{
     color: #996633;
@@ -114,7 +102,151 @@ ul{
 }
 li{
     text-align: center;
+    color: #72370c;
 }
 .prace{
     text-align: left;
+}
+body {
+    margin: 0;
+    font-family: 'VT323', monospace;
+    background: url('obrázky/planky3_tile_64.png');
+    background-size: 64px;
+    color: #fff;
+}
+.hero {
+    background: url('obrázky/chlebarnazepredu.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero2 {
+    background: url('obrázky/chlebarnazevnitr2.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'VT323', monospace;
+    text-shadow: 2px 2px #000;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+}
+.btn {
+    background: #3C8527;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid #264d1f;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #4dae3b;
+    box-shadow: 0 0 10px #77ff77;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.item {
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #835C3B;
+    border-radius: 12px;
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 12px #000;
+}
+.item img {
+    width: 64px;
+    height: 64px;
+}
+.item h3 {
+    color: #ffffaa;
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+.item p {
+    color: #b0ffb0;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    font-size: 16px;
+}
+.info-section {
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #835C3B;
+    border-radius: 12px;
+    max-width: 800px;
+    min-width: 65px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    box-shadow: 0 0 12px #000;
+    font-size: 20px;
+    color: #b0ffb0;
+    line-height: 1.5;
+}
+.info-section h2 {
+    color: #ffffaa;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+.info-section img {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.info-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #835C3B;
+    padding-bottom: 15px;
+}
+.info-item:last-child {
+    border-bottom: none;
+}
+.info-item b {
+    color: #fff;
+    font-size: 22px;
+}
+a.normalnitext {
+    color: #aaffaa;
+    text-decoration: none;
+}
+a.normalnitext:hover {
+    text-decoration: underline;
 }
