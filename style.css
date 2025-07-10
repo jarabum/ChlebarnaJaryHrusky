@@ -106,7 +106,10 @@ li{
     color: #72370c;
 }
 .prace{
-    text-align: left;
+  color: black;                    /* výplň textu */
+  -webkit-text-stroke: 0.25px white; /* bílý obrys kolem každého písmenka */
+  font-weight: bold;
+  text-align: center;
 }
 body {
     margin: 0;
