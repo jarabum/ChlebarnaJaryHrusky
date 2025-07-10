@@ -106,7 +106,7 @@ li{
     body {
       margin: 0;
       font-family: 'VT323', monospace;
-      background: url('obrázky/planky2_tile_64.png');
+      background: url('obrázky/planky3_tile_64.png');
       background-size: 64px;
       color: #fff;
     }
@@ -189,4 +189,49 @@ li{
       padding: 20px;
       background: rgba(0,0,0,0.6);
       font-size: 16px;
+    }
+        .info-section {
+      background: rgba(0, 0, 0, 0.7);
+      border: 3px solid #835C3B;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px 30px;
+      box-shadow: 0 0 12px #000;
+      font-size: 20px;
+      color: #b0ffb0;
+      line-height: 1.5;
+    }
+    .info-section h2 {
+      color: #ffffaa;
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      font-family: 'VT323', monospace;
+      text-align: center;
+      text-shadow: 1px 1px #000;
+    }
+    .info-section img {
+      width: 64px;
+      height: 64px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    .info-item {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #835C3B;
+      padding-bottom: 15px;
+    }
+    .info-item:last-child {
+      border-bottom: none;
+    }
+    .info-item b {
+      color: #fff;
+      font-size: 22px;
+    }
+     a.normalnitext {
+      color: #aaffaa;
+      text-decoration: none;
+    }
+    a.normalnitext:hover {
+      text-decoration: underline;
     }
