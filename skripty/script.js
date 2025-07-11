@@ -1,1 +1,1 @@
-console.log("start chlebárny")
+console.log("hej co tu pokukuješ")
